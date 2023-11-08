@@ -15,7 +15,7 @@
       {
         "label": "Hooch Theme",
         "uiTheme": "vs-dark",
-        "path": "./mycustomtheme/themes/Hooch Theme-color-theme.json"
+        "path": "./themes/Hooch Theme-color-theme.json"
       }
     ]
   },
