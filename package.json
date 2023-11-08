@@ -1,14 +1,26 @@
 {
-    "name": "mycustomtheme",
-    "displayName": "Custom Theme",
-    "version": "0.2.0",
-    "publisher": "Hooch",
-    "pricing": "Free",
-    "engines": {
-        "vscode": "^1.0.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Hooch0/vscodetheme.git"
-    }
+  "name": "mycustomtheme",
+  "displayName": "MyCustomTheme",
+  "description": "",
+  "publisher": "Hooch",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Hooch Theme",
+        "uiTheme": "vs-dark",
+        "path": "./mycustomtheme/themes/Hooch Theme-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hooch0/vscodetheme.git"
+  }
 }
